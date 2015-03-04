@@ -1,0 +1,154 @@
+Android 学习资料整理
+
+一、知名博主（我心中的大神们）
+国内:
+Trinea: http://www.trinea.cn/  [iteye: http://trinea.iteye.com/] [我心中的开源领领袖]
+陈启超：http://qichaochen.github.io/
+张奇：http://stormzhang.com/about.html
+胡凯：http://hukai.me/   (Google Android官方培训课程中文翻译)
+林慧文（代码家）：http://blog.daimajia.com/
+许晓锋（Android Material Design方面）http://drakeet.me/
+杨辉：http://yanghui.name/  [https://github.com/kyze8439690]
+鲍永章：http://baoyz.com/
+greenrobot.me的站长TinyGreenRobot：http://greenrobot.me/  （博文都是一些高质量、前沿的译文为主）
+书呆子精神院:http://www.pedant.cn/
+呆呆大虾：http://www.cnblogs.com/popapa/   旧地址：http://blog.sina.com.cn/popapa  （Android开发指南系列官方翻译文章）
+农民伯伯：http://www.cnblogs.com/over140/  （同呆呆大虾一同维护了 Android中文Wiki API中文翻译系列文章  非常敬佩）
+圣骑士wind: http://www.cnblogs.com/mengdd/  （涉猎Android/设计模式/数据结构与算法等）
+游戏啊柴：http://blog.gfdsa.net/
+谦虚的天下：http://www.cnblogs.com/qianxudetianxia
+网名未知：http://blog.objcc.com/category/android/  （博客中介绍了很多Android开源组件/框架等）
+云在千峰：http://blog.chengyunfeng.com/
+小猪爬爬：http://blog.tisa7.com/
+大名未知：http://stackvoid.com/ 【文章内容较深入 多为优化系列文章 |适于Android进阶学习】
+高建武_Gracker：http://www.grackertalk.com/ | http://www.androidperformance.com/ 【关于Android优化系列的文章不错】
+frydsh: http://www.cnblogs.com/frydsh/category/414586.html
+
+国外：
+Android官网博客： http://android-developers.blogspot.sg/   -- 全是高质量、最前沿的技术博客[需翻墙]
+
+
+
+二、优秀的网站/社区 [学不完的最新技术]
+   Android开发技术周报: http://www.androidweekly.cn/
+   Android技术周报： http://www.race604.com/   
+   App开发日报 关注移动应用的开发: http://app.memect.com/   [含丰富的安卓资源库列表]
+   开源项目源码解析：http://codekk.com/open-source-project-analysis
+   Android代码查找：https://www.codota.com/ 
+
+   国外的Android教程：http://www.vogella.com/tutorials/android.html
+
+
+三、纯干货分享区
+   Android 开发者国内镜像：http://wear.techbrood.com/  
+   视频区：ChinaGDG优酷视频：http://i.youku.com/chinagdg  （第一时间同步 Google Developers 的各种技术视频）
+   android-cn: 由Trinea发起的开源团队、致力于 Android 技术及信息分享，提高国内 Android 技术
+               https://github.com/android-cn
+   Google Android官方培训课程中文版：http://hukai.me/android-training-course-in-chinese/index.html
+   Gradle Android插件用户指南翻译: http://avatarqing.github.io/Gradle-Plugin-User-Guide-Chinese-Verision/
+   Android Dev Tools官网地址：www.androiddevtools.cn
+   Android中文Wiki：http://wikidroid.sinaapp.com/%E9%A6%96%E9%A1%B5
+   Android API非官方中文：http://android.toolib.net/reference/packages.html
+
+
+四、优秀文章
+   Android深入学习系列：      
+       1、老罗的博客系列：
+       2、深入解析Android的自定义布局：http://greenrobot.me/devpost/android-custom-layout/
+              http://android.jobbole.com/80627/
+       3、在ViewGroup中处理Touch Events：http://yanghui.name/blog/2013/10/17/managing-touch-events-in-a-viewgroup/
+       4、Android应用增量更新:https://github.com/cundong/SmartAppUpdates
+       5、二维码的生成细节和原理：http://coolshell.cn/articles/10590.html#jtss-tsina
+       6、Android启动过程深入解析：http://android.jobbole.com/67931/#comment-66282
+
+
+   Android性能优化系列：
+       1、Google的Android性能模式： http://www.infoq.com/cn/news/2015/01/google-android-performance
+       2、Android性能优化典范： http://www.csdn.net/article/2015-01-20/2823621-android-performance-patterns
+       3、Android中关于Bitmap的使用优化：http://www.imooc.com/wenda/detail/244470
+       4、阿里技术沙龙 - Android应用性能优化实践：http://yanghui.name/blog/2015/02/01/2015-1-31-ali-technical-salon/
+       5、Android App 性能优化实践：http://stackvoid.com/performance-tuning-on-android/
+       6、Android性能优化之过渡绘制：http://www.androidperformance.com/android-performance-optimization-overdraw-1.html
+       7、郭霖-Android最佳性能实践 系列：http://blog.csdn.net/guolin_blog/article/details/42238627
+       8、Android DiskLruCache完全解析，硬盘缓存的最佳方案：http://www.tuicool.com/articles/JB7RNj
+
+   Android安全预防系列：
+
+
+
+五、App应用功能点开发介绍文章
+
+
+
+六、Android应用Web(非原生)开发
+
+
+
+七、优秀的开源项目/开发库/框架：
+【置顶】https://github.com/android-cn/android-open-project-analysis
+
+1、Volley ：是Google官方推出的一个开源的网络通信库，它能使网络通信更简单，更快速
+
+2、android-async-http： Android Http请求开源库
+
+3、OKHttp : 网络通信框架 https://github.com/square/okhttp 
+
+4、ActiveAndroid ：个轻量级的ORM(对象关系映射(Object Relation Mapping))框架，简单地通过如save()和delete()等方法来做到增删改查等操作。
+
+5、ORMLite: 轻量级ORM框架  http://ormlite.com/releases/
+
+6、Android-Universal-Image-Loader ：强大的开源图片异步加载库，该项目的目的是提供一个可重复使用的仪器为异步图像加载，缓存和显示。
+
+7、EventBus : 实现了Android组件间高效通信框架   相关类似框架：Otto
+
+8、Afinal ： 一个Android快速开发平台 集成了网络请求、数据库等基础底层封装
+
+9、DL：由任玉刚研发团队开发的动态加载框架
+
+10、ApkPlug : android平台下OSGI框架,是android程序插件化,模块化开发利器[http://www.apkplug.com/]
+
+11、Dagger ：编译期的注入框架，没有使用反射，主要用于Android开发（帮助代码实现控制反转模式的函数库）   【http://square.github.io/dagger/】
+
+12、fastJson : Android Json开源库  相关的还有gson、jackson等解析组件
+
+13、NetworkEvents：一个监听网络连接状态并且可以改变Wifi信号强度的库
+    https://github.com/pwittchen/NetworkEvents
+
+14、smartAndroid:一套给 Android开发者使用的应用程序开发框架和工具包框架、值得一看 
+【http://www.aplesson.com/smartAndroid/demos/】
+
+15、Retrofit：基于动态代理的框架：简化网络请求操。作把REST API返回的数据转化为Java对象方便操作，对于在项目中组织API调用
+
+
+
+
+
+
+八、优秀的开源UI/组件:
+【置顶】https://github.com/Trinea/android-open-project
+
+1、导航抽屉：Navigation Drawer（Android Support V4 开发包中自带） / 开源库：SlidingMenu
+2、DragGridView 可拖拽的GridView : https://github.com/xiaanming/DragGridView 
+3、DynamicGrid 类似于桌面图标拖拽的库： https://github.com/askerov/DynamicGrid
+4、Zhihu-Parallax-Animation 知乎 Android 客户端启动页的视差动画效果实现： https://github.com/ryanhoo/Zhihu-Parallax-Animation
+5、DragTopLayout: 在ViewPager头部添加一个TopView用以显示头部菜单的控件。类型豌豆荚的应用详情页实现
+   https://github.com/chenupt/DragTopLayout
+6、
+
+
+九、Material Design系列：
+1、bitmapMesh 一个实现窗帘效果的库：https://github.com/7heaven/bitmapMesh
+2、android-pathview 可以用来显示路径动画，可以加载SVG：https://github.com/geftimov/android-pathview
+3、StikkyHeader 可滚动的View添加stick Header并且可以添加动画效果
+   https://github.com/carlonzo/StikkyHeader
+4、
+
+
+十、Android设计:
+Android设计指南非官方翻译-简体中文版: http://adchs.github.io/index.html
+Android Design：http://www.topfun.us/adchs/index.html
+Material Design
+
+
+
+
