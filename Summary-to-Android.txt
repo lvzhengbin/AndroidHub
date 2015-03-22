@@ -3,7 +3,7 @@ Android 学习资料整理
 一、知名博主（我心中的大神们）
 国内:
 Trinea: http://www.trinea.cn/  [iteye: http://trinea.iteye.com/] [我心中的开源领领袖]
-陈启超：http://qichaochen.github.io/
+陈启超：http://qichaochen.github.io/  [新域名: http://chenqichao.me/] 西安电子科技大学攻城硕士研究僧
 张奇：http://stormzhang.com/about.html
 胡凯：http://hukai.me/   (Google Android官方培训课程中文翻译)
 林慧文（代码家）：http://blog.daimajia.com/
@@ -22,10 +22,12 @@ greenrobot.me的站长TinyGreenRobot：http://greenrobot.me/  （博文都是一些高质量、
 小猪爬爬：http://blog.tisa7.com/
 大名未知：http://stackvoid.com/ 【文章内容较深入 多为优化系列文章 |适于Android进阶学习】
 高建武_Gracker：http://www.grackertalk.com/ | http://www.androidperformance.com/ 【关于Android优化系列的文章不错】
+码农明明桑: http://blog.isming.me/
 frydsh: http://www.cnblogs.com/frydsh/category/414586.html
 
 国外：
 Android官网博客： http://android-developers.blogspot.sg/   -- 全是高质量、最前沿的技术博客[需翻墙]
+Tuts+ Code Category: http://code.tutsplus.com/categories/android-sdk
 
 
 
@@ -35,8 +37,11 @@ Android官网博客： http://android-developers.blogspot.sg/   -- 全是高质量、最前沿
    App开发日报 关注移动应用的开发: http://app.memect.com/   [含丰富的安卓资源库列表]
    开源项目源码解析：http://codekk.com/open-source-project-analysis
    Android代码查找：https://www.codota.com/ 
+   Android源码设计模式分析项目:https://github.com/simple-android-framework-exchange/android_design_patterns_analysis#schedule
 
    国外的Android教程：http://www.vogella.com/tutorials/android.html
+   Android tutorial - TutorialSpoint: http://www.tutorialspoint.com/android/index.htm
+   library军火库：https://android-arsenal.com/  [收集了超级多好用的library]
 
 
 三、纯干货分享区
@@ -60,7 +65,9 @@ Android官网博客： http://android-developers.blogspot.sg/   -- 全是高质量、最前沿
        4、Android应用增量更新:https://github.com/cundong/SmartAppUpdates
        5、二维码的生成细节和原理：http://coolshell.cn/articles/10590.html#jtss-tsina
        6、Android启动过程深入解析：http://android.jobbole.com/67931/#comment-66282
-
+       7、View 绘制流程：http://www.codekk.com/open-source-project-analysis/detail/Android/lightSky/%E5%85%AC%E5%85%B1%E6%8A%80%E6%9C%AF%E7%82%B9%E4%B9%8BView%20%E7%BB%98%E5%88%B6%E6%B5%81%E7%A8%8B
+       8、Android Proguard 详解：http://www.codeceo.com/article/android-proguard.html#13688-tsina-1-26748-57d4d90508c08d162896a47818ce968b
+       9、Android应用增量更新:https://github.com/cundong/SmartAppUpdates
 
    Android性能优化系列：
        1、Google的Android性能模式： http://www.infoq.com/cn/news/2015/01/google-android-performance
@@ -71,25 +78,31 @@ Android官网博客： http://android-developers.blogspot.sg/   -- 全是高质量、最前沿
        6、Android性能优化之过渡绘制：http://www.androidperformance.com/android-performance-optimization-overdraw-1.html
        7、郭霖-Android最佳性能实践 系列：http://blog.csdn.net/guolin_blog/article/details/42238627
        8、Android DiskLruCache完全解析，硬盘缓存的最佳方案：http://www.tuicool.com/articles/JB7RNj
+       9、加速Android Studio/Gradle构建：http://blog.isming.me/2015/03/18/android-build-speed-up/#0-tsina-1-65794-397232819ff9a47a7b7e80a40613cfe1
+       10、
+
 
    Android安全预防系列：
 
 
-
-五、App应用功能点开发介绍文章
-
-
-
-六、Android应用Web(非原生)开发
+五、GitHub开源资源分享
 
 
 
-七、优秀的开源项目/开发库/框架：
+六、App应用功能点开发介绍文章
+
+
+
+七、Android应用Web(非原生)开发
+
+
+
+优秀的开源项目/开发库/框架：
 【置顶】https://github.com/android-cn/android-open-project-analysis
 
 1、Volley ：是Google官方推出的一个开源的网络通信库，它能使网络通信更简单，更快速
 
-2、android-async-http： Android Http请求开源库
+2、android-async-http： Android Http请求开源库 [https://github.com/loopj/android-async-http]
 
 3、OKHttp : 网络通信框架 https://github.com/square/okhttp 
 
@@ -101,7 +114,7 @@ Android官网博客： http://android-developers.blogspot.sg/   -- 全是高质量、最前沿
 
 7、EventBus : 实现了Android组件间高效通信框架   相关类似框架：Otto
 
-8、Afinal ： 一个Android快速开发平台 集成了网络请求、数据库等基础底层封装
+8、Afinal ： 一个Android快速开发平台 集成了网络请求、数据库等基础底层封装 [https://github.com/yangfuhai/afinal]
 
 9、DL：由任玉刚研发团队开发的动态加载框架
 
@@ -119,36 +132,55 @@ Android官网博客： http://android-developers.blogspot.sg/   -- 全是高质量、最前沿
 
 15、Retrofit：基于动态代理的框架：简化网络请求操。作把REST API返回的数据转化为Java对象方便操作，对于在项目中组织API调用
 
+16、LitePal：一款开源的Android数据库框架，它采用了对象关系映射(ORM)的模式 
+   [郭霖的博客有详细讲解：http://blog.csdn.net/guolin_blog/article/details/38556989]
+   【https://github.com/LitePalFramework/LitePal】
+
+17、xUtils：快速开发基础框架 [https://github.com/wyouflf/xUtils]
+
+18、ThinkAndroid：快速开发基础框架 [https://github.com/white-cat/ThinkAndroid]
+
+19、LoonAndroid：快速开发基础框架 [https://github.com/gdpancheng/LoonAndroid]
+
+20、SmartProxy：安卓下的智能代理。[https://github.com/hedaode/SmartProxy]
+
+21、Android应用增量更新: [https://github.com/cundong/SmartAppUpdates]
 
 
 
 
 
-八、优秀的开源UI/组件:
+优秀的开源UI/组件:
 【置顶】https://github.com/Trinea/android-open-project
-
+【置顶】https://github.com/Rano1/Interactive-animation
+【由小猪爬爬整理】http://blog.tisa7.com/android_open_source_projects
 1、导航抽屉：Navigation Drawer（Android Support V4 开发包中自带） / 开源库：SlidingMenu
 2、DragGridView 可拖拽的GridView : https://github.com/xiaanming/DragGridView 
 3、DynamicGrid 类似于桌面图标拖拽的库： https://github.com/askerov/DynamicGrid
 4、Zhihu-Parallax-Animation 知乎 Android 客户端启动页的视差动画效果实现： https://github.com/ryanhoo/Zhihu-Parallax-Animation
 5、DragTopLayout: 在ViewPager头部添加一个TopView用以显示头部菜单的控件。类型豌豆荚的应用详情页实现
    https://github.com/chenupt/DragTopLayout
-6、
+6、badgeview: 如控件上红色数字提示效果
+7、SwipeMenuListView：listView中侧滑删除效果 [https://github.com/baoyongzhang/SwipeMenuListView]
+8、GridPasswordView：类似微信，支付宝支付时候的输入密码页面效果 [https://github.com/Jungerr/GridPasswordView]
 
 
-九、Material Design系列：
+
+Material Design系列：
 1、bitmapMesh 一个实现窗帘效果的库：https://github.com/7heaven/bitmapMesh
 2、android-pathview 可以用来显示路径动画，可以加载SVG：https://github.com/geftimov/android-pathview
 3、StikkyHeader 可滚动的View添加stick Header并且可以添加动画效果
    https://github.com/carlonzo/StikkyHeader
-4、
+4、SpringIndicator: 模仿Morning Routine的引导页效果 [https://github.com/chenupt/SpringIndicator]
+5、Android-Material-Examples：https://github.com/saulmm/Android-Material-Examples
 
-
-十、Android设计:
+Android设计:
 Android设计指南非官方翻译-简体中文版: http://adchs.github.io/index.html
 Android Design：http://www.topfun.us/adchs/index.html
 Material Design
 
 
+综合：
+GitHub使用完全中文指南：http://www.worldhello.net/gotgithub/
 
 
